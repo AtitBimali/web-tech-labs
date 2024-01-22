@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Registration form</title>
+  </head>
+  <body>
+    <h1>User Registration form for IT</h1>
+    <form name="Registration_form" action="Reg_Form.php">
+      <fieldset>
+        <legend>
+          <h2>User Registration Form</h2>
+        </legend>
+
+        <label for="Firstname"> First Name : </label>
+        <input type="text" name="first name " id="Firstname" />
+        <br /><br />
+        <label for="lastname"> Last Name : </label>
+        <input type="text" name="last name " id="lastname" />
+        <br />
+        <br />
+        <label for="Phone"> Mobile : </label>
+        <input type="tel" name="Phone" id="Phone" />
+        <br />
+        <br />
+        <label for="email"> Email: </label>
+        <input
+          type="email"
+          name="Email"
+          id="email"
+          placeholder="name@mail.com"
+        />
+        <br />
+        <br />
+        <label for="password"> Set a password : </label>
+        <input type="password" id="password" name="Password" />
+        <br /><br />
+        <label for="DOB"> DOB : </label>
+        <input type="date" name="Date Of Birth" />
+        <br />
+        <br />
+        <label for="Gender"> Gender : </label>
+        <label for="Male">
+          <input type="radio" name="gender" value="Male" ] id="Male" />Male
+        </label>
+        <label for="Female">
+          <input type="radio" name="gender" value="Female" id="Female" />Female
+        </label>
+        <label for="other">
+          <input type="radio" name="gender" value="Others" id="other" />Others
+        </label>
+        <br /><br />
+        <label for="Courses"> Intersted Courses : </label>
+        <select name="Course" id="Course">
+          <option value="Web dev">Web development</option>
+          <option value="Mechine Learning">Mechine Learning</option>
+          <option value="Data Science">Data Science</option>
+          <option value="Block chain">Block Chain</option>
+        </select>
+        <br /><br />
+        <label for="Hobbies"> Hobbies : </label>
+        <label for="Playing">
+          <input type="checkbox" name="Playing" id="Playing" />Playing
+        </label>
+        <label for="Travelling">
+          <input type="checkbox" name="Travelling" id="Travelling" />Travelling
+        </label>
+        <label for="others">
+          <input type="checkbox" name="Others" id="others activities" />Others
+        </label>
+        <br /><br />
+        <label for="picture">Upload Your Picture</label>
+        <br /><input type="file" id="picture" name="picture" accept="image/*" />
+        <br />
+        <br />
+        <label for="CV">Upload Your CV </label>
+        <br />
+        <input type="file" id="CV" name="CV" accept=".pdf, .doc, .docx" />
+        <br /><br />
+        <input type="submit" value="Submit Now" class="submit_button" />
+      </fieldset>
+    </form>
+  </body>
+</html>

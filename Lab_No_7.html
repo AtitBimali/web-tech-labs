@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scripting examples</title>
+  </head>
+  <body>
+    <h2>Text alteration</h2>
+    <p id="texta">Hello my name is Atit Bimali</p>
+    <button
+      onclick="document.getElementById('texta').innerHTML='Hello this is the altered massage !'"
+    >
+      click me
+    </button>
+    <h2>Alert message</h2>
+    <button onclick="click_me()">click me</button>
+    <br />
+    <br />
+    <hr /> 
+    <script>
+      var a = 10;
+      var b = 15;
+      document.write("The value of a is " + a + "<br>");
+      document.write("The value of b is " + b + "<br><br>");
+      document.write("The Sum of a and b is " + (a + b));
+      function click_me() {
+        alert("This is alert message");
+      }
+    </script>
+  </body>
+</html>
