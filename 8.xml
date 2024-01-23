@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+    <student>
+        <registration_number>001</registration_number>
+        <name>Ram Babu</name>
+        <roll_number>101</roll_number>
+        <project_name>Project A</project_name>
+    </student>
+    <student>
+        <registration_number>002</registration_number>
+        <name>Shyam Satruganj</name>
+        <roll_number>102</roll_number>
+        <project_name>Project B</project_name>
+    </student>
+    <student>
+        <registration_number>003</registration_number>
+        <name>Narayan Radheradhe</name>
+        <roll_number>103</roll_number>
+        <project_name>Project C</project_name>
+    </student>
+    <student>
+        <registration_number>004</registration_number>
+        <name>Hari Harishiva</name>
+        <roll_number>104</roll_number>
+        <project_name>Project D</project_name>
+    </student>
+    <student>
+        <registration_number>005</registration_number>
+        <name>Hanuman Rambhakt</name>
+        <roll_number>105</roll_number>
+        <project_name>Project E</project_name>
+    </student>
+</students>
